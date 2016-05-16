@@ -12,9 +12,8 @@ source:
 build:
   entry_points:
     - iris_lda.py = bob.db.iris.example.lda:main
-  number: 0
+  number: 1
   skip: true  # [win]
-  script: python -B setup.py install --single-version-externally-managed --record record.txt
 
 requirements:
   build:
